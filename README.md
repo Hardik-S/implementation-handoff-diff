@@ -55,6 +55,10 @@ The worker run should also smoke the built or previewed app for `Implementation 
 
 ## Vercel
 
-Expected production alias: `https://implementation-handoff-diff.vercel.app`.
+Production alias: `https://implementation-handoff-diff.vercel.app`.
 
-Deploy with Vercel only after GitHub, package, and Vercel surfaces pass preflight checks.
+Initial deployment: `https://implementation-handoff-diff-ojjo4fqda-batb4016-9101s-projects.vercel.app`.
+
+Inspect URL: `https://vercel.com/batb4016-9101s-projects/implementation-handoff-diff/9PdymVwTAUMmLYh8ZBmJ4C1o3hP3`.
+
+The first deployment used `npx --yes vercel@latest --prod --yes --name implementation-handoff-diff` from the PPQ worktree so Vercel would use the intended public project name instead of the long automation worktree folder.
